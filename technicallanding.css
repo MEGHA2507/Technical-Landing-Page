@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url("techbg.jpg");
+    background-color: silver;
+    background-size: cover;
+    background-position: center;
+    font-family: Catamaran;
+}
+
+.center{
+    text-align: center;
+    padding-top: 8%;
+}
+
+h1, p{
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size:1em;
+}
+
+#login{
+    min-width: 250px;
+    background-color:rgba(255,255,255,0.7);
+    padding: 14px 14px 0px;
+}
+
+#login.social-button{
+    margin: 12px 0px;
+}
+
+.btn-fb{
+    color:#fff;
+    background-color: #3b599d;
+    margin-right: 10px;
+    border: solid 1px black;
+}
+
+.btn-tw{
+    color:#fff;
+    background-color:#65b0e9;
+    margin-left: 10px;
+    border: solid 1px black;
+}
+
+.btn-fb:hover{
+    color:white;
+    background-color: rgb(8, 8, 116);
+}
+
+.btn-tw:hover{
+    color:white;
+    background-color: rgb(80, 80, 248)
+    ;
+}
+
+.fa-twitter{
+    color: cornsilk;
+}
